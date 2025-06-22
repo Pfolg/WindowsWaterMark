@@ -1,0 +1,11 @@
+{
+    "line1": "Windows Hacked",
+    "line2": "Go to http://127.0.0.1 to pay the ransom.",
+    "port": 20520,
+    "ratio": {
+        "up": 8,
+        "down": 1,
+        "right": 1,
+        "left": 20
+    }
+}
