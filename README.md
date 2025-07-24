@@ -1,4 +1,4 @@
-![alt text](image.png)
+![alt text](assets/image.png)
 
 在`text.json`中自定义位置（比例），文案。
 
