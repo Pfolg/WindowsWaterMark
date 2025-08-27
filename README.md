@@ -7,3 +7,6 @@
 最新版使用C++，Qt，[nlohmann/json](https://github.com/nlohmann/json)编写，VsCode开发环境。
 
 去Release下载
+
+>[!TIP]
+> [使用方法](https://github.com/Pfolg/WindowsWaterMark/wiki/Usage)

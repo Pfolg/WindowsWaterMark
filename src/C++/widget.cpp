@@ -95,7 +95,7 @@ void Widget::checkSingleInstance(int port)
     if (singleInstanceSocket->waitForConnected(100))
     {
         QMessageBox::warning(nullptr, "Warning", "端口 " + QString::number(port) + " 正在使用，可能已经有实例在运行，或者更改端口。");
-        QApplication::quit();
+        exit(0);
     }
     else
     {
@@ -103,7 +103,7 @@ void Widget::checkSingleInstance(int port)
         if (!server->listen(QHostAddress::LocalHost, port))
         {
             QMessageBox::critical(nullptr, "Error", "无法监听端口 " + QString::number(port));
-            QApplication::quit();
+            exit(0);
         }
     }
 }
