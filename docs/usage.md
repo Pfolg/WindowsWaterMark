@@ -39,11 +39,13 @@ Windows 11 下双击即可运行。_**适合所有人**_
 
 大佬随意（C++、Python）。
 
+---
+您可以通过创建快捷方式在系统任意位置快速启动程序，以避免配置文件无法识别或生成于启动文件夹。
+
 # 关闭
 
 您需要**在任务管理器中关闭程序**，按下`Alt+F4`无效。
 
-![](..\assets\image1.png)
+![](https://github.com/Pfolg/WindowsWaterMark/blob/main/assets/image1.png)
 
 关闭程序后，水印文字会自动消失。
-
